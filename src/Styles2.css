@@ -1,0 +1,86 @@
+.block-1{
+    /* background-color: rgb(204, 91, 91); */
+    border:1px solid black;
+    padding : 1px;
+    width : 50%;
+    margin: 20px auto;
+    color:white;
+    background-color: rgb(32, 21, 92);
+    border-radius: 5px;
+    /* text-align:center; */
+}
+.form-control{
+    /* display:grid;
+    grid-template-columns: 30% 70%; */
+
+    display: flex;
+    justify-content: center;
+    
+    margin:10px 0px;
+    box-sizing: border-box;
+    
+}
+.submitButton{
+    border-style: none;
+    display:block;
+    margin-top:30px;
+    width:100px;
+    margin:20px auto;
+    /* border:1px solid red; */
+    padding : 5px;
+    /* background-color: green; */
+    /* text-align:center;   */
+}
+p{
+    text-align:right;
+    /* padding-right:10px; */
+    /* border: 1px solid black; */
+    padding: 1px;   
+    width:100px;
+    margin-right:20px;
+    font-size:20px;
+    /* padding: 10px; */
+    
+    /* padding: 20px 0px; */
+    /* margin:20px 0px; */
+}
+input{
+    padding-left: 2px;
+    width:250px;
+    border-style:none;
+    border-radius: 5px;
+}
+h2{
+    text-align:center;
+    margin-top: 10px;
+}
+.block-2{
+    width : 50%;
+    background-color: rgb(5, 107, 36);
+    color:white;
+    margin:0px auto;
+    padding:20px 10px;
+    box-sizing: border-box;
+
+}
+input:focus{
+    outline : none
+}
+span{
+    margin-right:20px;
+    font-size:20px;
+}
+button{
+    /* border-style:none; */
+    margin-right:8px;
+    padding:5px;
+    border-radius: 2px;
+}
+.flexStyle{
+    display:flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+.widthStyle{
+    width:300px;
+}
