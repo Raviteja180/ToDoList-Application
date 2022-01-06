@@ -27,7 +27,7 @@ class ToDoList extends Component {
         event.preventDefault();
         const { arrayOfNames, nameBeforeUpdate, } = this.state
         if (this.state.updateClicked) {
-            let a = arrayOfNames.filter(o => o.nameAfter == nameBeforeUpdate)[0]
+            let a = arrayOfNames.filter(o => o.nameAfter === nameBeforeUpdate)[0]
             a.nameAfter = event.target[0].value
             a.usernameAfter = event.target[1].value
             console.log(arrayOfNames)
@@ -68,8 +68,8 @@ class ToDoList extends Component {
         let tempName = user
         console.log(tempName)
         let tempArray = [...this.state.arrayOfNames]
-        let tempObject = tempArray.filter(o => o.nameAfter != tempName.nameAfter);
-        if (tempObject != null) {
+        let tempObject = tempArray.filter(o => o.nameAfter !== tempName.nameAfter);
+        if (tempObject !== null) {
            
             this.setState({
                 arrayOfNames: tempObject
